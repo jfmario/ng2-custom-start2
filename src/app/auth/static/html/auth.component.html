@@ -1,11 +1,11 @@
-<div class="panel panel-default">
-    <div class="panel-heading">Authentication</div>
+<div class="card card-block">
+    <h4 class="card-title">Authentication</h4>
     <div class="panel-body">
         <div class="form">
             <div class="alert alert-info" *ngIf="!checkComplete">
                 <b>Authenticating...</b>
             </div>
-            <div class="btn-group-lg btn-group-vertical center-block" *ngIf="checkComplete">
+            <div *ngIf="checkComplete">
                 <a class="btn btn-primary" [routerLink]="['/login']">LOGIN</a>
                 <a class="btn btn-success" [routerLink]="['/register']">REGISTER</a>
             </div>

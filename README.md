@@ -1,4 +1,14 @@
 
+# Custom NG2 Quickstart #
+
+A starting point for an application using the Angular2 CLI.
+
+## Starting Out #
+
+```
+npm install
+```
+
 ## Development #
 
 ### Dev Server #
